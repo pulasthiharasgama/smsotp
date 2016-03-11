@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/metatype">
+    <OCD id="identity.application.authenticator.SMSOTP.component" name="%identity.application.authenticator.SMSOTP.component.name" description="%identity.application.authenticator.SMSOTP.component.description"/>
+    <Designate pid="identity.application.authenticator.SMSOTP.component">
+        <Object ocdref="identity.application.authenticator.SMSOTP.component"/>
+    </Designate>
+</metatype:MetaData>

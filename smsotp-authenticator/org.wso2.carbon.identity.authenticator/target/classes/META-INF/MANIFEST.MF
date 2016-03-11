@@ -1,0 +1,57 @@
+Manifest-Version: 1.0
+Export-Package: org.wso2.carbon.identity.authenticator.smsotp.internal
+ ;uses:="org.apache.commons.logging,org.wso2.carbon.user.core.service,
+ org.wso2.carbon.identity.application.authentication.framework,org.wso
+ 2.carbon.identity.authenticator.smsotp,org.osgi.framework,org.osgi.se
+ rvice.component";version="1.0.0",org.wso2.carbon.identity.authenticat
+ or.smsotp;uses:="javax.crypto.spec,org.apache.commons.logging,javax.c
+ rypto,org.wso2.carbon.identity.core.util,org.wso2.carbon.identity.app
+ lication.authentication.framework.config,org.wso2.carbon.user.api,org
+ .wso2.carbon.identity.application.authentication.framework,org.wso2.c
+ arbon.identity.application.authentication.framework.config.model,org.
+ wso2.carbon.user.core,org.wso2.carbon.identity.application.authentica
+ tion.framework.util,org.wso2.carbon.identity.application.authenticati
+ on.framework.model,org.apache.commons.lang,org.wso2.carbon.identity.a
+ pplication.common.model,org.wso2.carbon.user.core.service,org.wso2.ca
+ rbon.utils.multitenancy,org.wso2.carbon.identity.application.authenti
+ cation.framework.context,org.wso2.carbon.identity.application.authent
+ ication.framework.exception,javax.net.ssl,javax.servlet.http";version
+ ="1.0.0"
+Service-Component: OSGI-INF/serviceComponents.xml
+Built-By: pulasthi
+Tool: Bnd-1.43.0
+Bundle-Name: org.wso2.carbon.identity.authenticator.SMSOTP
+Created-By: Apache Maven Bundle Plugin
+Bundle-Vendor: WSO2
+Build-Jdk: 1.7.0_80
+Bundle-Version: 1.0.0
+Bnd-LastModified: 1457605037723
+Bundle-ManifestVersion: 2
+Bundle-Description: WSO2 is an open source application development sof
+ tware company focused on providing service-oriented        architectu
+ re solutions for professional developers.
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-SymbolicName: org.wso2.carbon.identity.authenticator.SMSOTP
+Import-Package: javax.crypto;resolution:=optional,javax.crypto.spec;re
+ solution:=optional,javax.net.ssl;resolution:=optional,javax.servlet;v
+ ersion="[2.6,3)",javax.servlet.http;version="[2.6,3)",org.apache.comm
+ ons.lang;resolution:=optional;version="[2.6,3)",org.apache.commons.lo
+ gging;version="1.0.4",org.osgi.framework;version="[1.7,2)",org.osgi.s
+ ervice.component;resolution:=optional;version="[1.2,2)",org.wso2.carb
+ on.identity.application.authentication.framework;version="[5.0,6)",or
+ g.wso2.carbon.identity.application.authentication.framework.config;ve
+ rsion="[5.0,6)",org.wso2.carbon.identity.application.authentication.f
+ ramework.config.model;version="[5.0,6)",org.wso2.carbon.identity.appl
+ ication.authentication.framework.context;version="[5.0,6)",org.wso2.c
+ arbon.identity.application.authentication.framework.exception;version
+ ="[5.0,6)",org.wso2.carbon.identity.application.authentication.framew
+ ork.model;version="[5.0,6)",org.wso2.carbon.identity.application.auth
+ entication.framework.util;version="[5.0,6)",org.wso2.carbon.identity.
+ application.common.model;resolution:=optional;version="[5.0,6)",org.w
+ so2.carbon.identity.core.util;resolution:=optional;version="[5.0,6)",
+ org.wso2.carbon.user.api;resolution:=optional;version="[1.0,2)",org.w
+ so2.carbon.user.core;resolution:=optional;version="[4.4,5)",org.wso2.
+ carbon.user.core.service;resolution:=optional;version="[4.4,5)",org.w
+ so2.carbon.utils.multitenancy;resolution:=optional;version="[4.4,5)"
+Bundle-DocURL: http://www.wso2.org/
+
